@@ -21,8 +21,9 @@ def Translate(arr):
 
 
 translator = Translator()
-
-f = open('Alice.txt', 'r')
+print('input path to your book:')
+path = input()
+f = open(path, 'r')
 text = f.read()
 division = []
 for i in text:
